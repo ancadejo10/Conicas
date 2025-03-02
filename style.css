@@ -1,0 +1,33 @@
+html, body {
+    user-select: none; /* Disables text selection */
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For Internet Explorer/Edge */
+}
+
+th{
+    width: 33%;
+    height: 20%;
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    font-size: 200%;
+    background-color: rgb(255, 228, 178);
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    align-items: flex-start; /* Aligns items at the top */
+    gap: 20px; /* Space between canvas and table */
+    padding: 20px;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conicas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="" alt="" id="ImgE" style = "display: none;">
+
+    <ul id="CanvasSlot">
+        <li><canvas id="MainCanvas"></canvas></li>
+        <li><button id="BtnT">Tipo</button></li>
+    </ul>
+
+    <ul id="ControlSlot">
+        <li><table id="Control">
+            <tr>
+                <th><button id="BtnA">⇖</button></th>
+                <th><button id="BtnE">↑</button></th>
+                <th><button id="BtnD">⇗</button></th>
+            </tr>
+            <tr>
+                <th><button id="BtnW">⇙</button></th>
+                <th><button id="BtnQ">↓</button></th>
+                <th><button id="BtnS">⇘</button></th>
+            </tr>
+    
+            <tr>
+                <th><hr></th>
+                <th><hr></th>
+                <th><hr></th>
+            </tr>
+    
+            <tr>
+                <th><button id="BtnP">+</button></th>
+                <th><button id="BtnU" style="transform: scaleY(-1);">↶</button></th>
+                <th><button id="BtnM">-</button></th>
+            </tr>
+            <tr>
+                <th><button id="BtnL">↻</button></th>
+                <th><button id="BtnB">↷</button></th>
+                <th><button id="BtnR">↺</button></th>
+            </tr>
+        </table></li>
+        <li><button id="BtnH">👁</button></li>
+    </ul>
+
+    <script src="core/gl.js"></script>
+    <script src="core/matrix.js"></script>
+    <script src="core/shader.js"></script>
+    <script src="core/program.js"></script>
+    <script src="core/mesh.js"></script>
+    <script src="core/cone_model.js"></script>
+    <script src="core/plane_model.js"></script>
+    <script src="core/control.js"></script>
+    
+    <script src="core/post.js"></script>
+    <script src="core/core.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
