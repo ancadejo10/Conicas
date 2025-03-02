@@ -1,7 +1,7 @@
 # Conicas
 <hr>
 Solo son conicas.
-<a href="">Aqui</a>
+<a href="https://ancadejo10.github.io/Conicas/">Aqui</a>
 <hr>
 
 Que onda:
